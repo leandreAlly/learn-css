@@ -1,0 +1,63 @@
+*,
+::before,
+::after{
+box-sizing: border-box;
+
+}
+
+article p:first-of-type{
+color: red;
+font-size: 1.5em;
+}
+[data-type]{
+display: flex;
+
+}
+
+[data-type="primary"]{
+color: blue;
+font: 1.2em;
+}
+[data-type="secondary"]{
+color: violet;
+font: 1.3em;
+border: 1px solid slategray;
+padding: 5px;
+/* width: 30%; */
+/* text-align: center; */
+}
+
+/*Always mention class and ID's as the last element   */
+h4,
+h5,
+.selector-1
+{
+color: midnightblue;
+
+}
+
+.links ul li:nth-child(even){
+color: red;
+list-style: none;
+font-size: 1.5em;
+font-family: 'Courier New', Courier, monospace;
+}
+.links ul li:hover{
+color: green;
+font-size: 2em;
+}
+
+.top > * + * {
+    margin-top: 3em;
+  }
+.top p{
+border: 1px solid blue;
+padding: 1em;
+background: yellow;
+}
+.box {
+    border: 1px solid red;
+    background: brown;
+}
+
+    
