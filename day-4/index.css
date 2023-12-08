@@ -1,0 +1,18 @@
+button{
+    color: red;
+}
+button{
+    color: blue;
+}
+.my-element{
+    background: green;
+    background: purple;
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 1rem +3vw, 2rem);
+}
+.specificity{
+    color: red;
+}
+h1{
+    color: blue;
+}
