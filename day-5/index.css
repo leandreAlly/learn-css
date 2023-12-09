@@ -1,0 +1,32 @@
+button{
+    color: red;
+}
+
+.branding{
+    color: blue;
+}
+.my-class{
+    color: red !important; /*10,000 points */
+    background: white /* 10 point */
+}
+a{
+    color: red;
+}
+a.m-class{
+    color: green;
+}
+a.m-class.another-class{
+    color:rebeccapurple
+}
+a.m-class.another-class[href]{
+    color: goldenrod;
+}
+a.m-class.another-class[href]:hover{
+    color: lightgrey
+}
+.my-button{
+    background:blue;
+}
+button[onClick]{
+    background: grey;
+}
