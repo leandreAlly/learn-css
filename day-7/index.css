@@ -1,0 +1,30 @@
+*,
+::after,
+::before{
+  box-sizing: border-box;
+}
+
+p{
+  font-size: 24px;
+  line-height: 1.5;
+}
+div{
+  width: 300px;
+  height: 100px;
+}
+
+div p{
+  width: 50%;
+
+}
+div, p{
+  border: 1px solid slategray;
+  padding: 0.25rem;
+}
+.box{
+  width: 150px;
+  height: 150px;
+  transform: rotate(60deg);
+  background: blue;
+}
+
