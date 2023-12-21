@@ -1,0 +1,33 @@
+body{
+  max-width: 50rem;
+  height: 400px;
+  min-height: unset;
+  padding: 2rem;
+  border: 1px solid #eae0c8;
+  margin: 1rem auto;
+}
+
+.page{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar{
+  background: #fdf5e6;
+  outline: 1px solid #ccc;
+  width: 14rem;
+  flex-grow: 1;
+  flex-basis: 12rem;
+}
+
+.content{
+    background: white;
+    border: 1px solid #eae0c8;
+    flex-basis: 0;
+    flex-grow: 2;
+    min-width: 70%;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
