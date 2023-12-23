@@ -1,0 +1,29 @@
+.boxx{
+  /* items will fill up all spaces available and they will have the same size */
+  flex: 1;
+  /* items will fill up all spaces available and the large items will hav more space than small ones*/
+  flex: auto;
+}
+
+.container{
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  align-content: center;
+  width: 100%;
+  gap: 15px;
+  flex-wrap: wrap;
+  flex: 1 1 0%;
+}
+
+.box{
+  width: 250px;
+  height: 250px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+.box2{
+  /* width: 400px; */
+  background: blue;
+}
