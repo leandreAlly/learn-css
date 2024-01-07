@@ -1,0 +1,26 @@
+*,::after, ::before{
+  box-sizing: border-box;
+}
+
+.card{
+  background-color: red;
+  border: 1px solid black;
+  /* max-width: 150px; */
+  /* max-height: 100px; */
+  width: 350px;
+  height: 250px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 5em;
+
+  top: 0.2em;
+  }
+
+  .item{
+    width: 100px;
+    height: 100px; /* Increase the height */
+    padding-top: 1em; /* Reduce the padding-top */
+    padding-bottom: 2em;
+    padding-left: 5em;
+    top: 0.2em;
+  }
