@@ -7,7 +7,6 @@ main{
   border: 2px solid slategrey;
   margin: auto;
   overflow-y: auto;
-
 }
 .container{
   display: flex;
