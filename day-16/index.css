@@ -1,0 +1,29 @@
+*,::before,::after{
+  box-sizing: border-box;
+}
+
+.title{
+  text-align: center;
+  font-weight: 500;
+  padding-top: 2rem;
+}
+.subtitle{
+  text-align: center;
+}
+.form-container{
+  /* text-align: center; */
+}
+.login-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+label{
+  display: block;
+  padding-top: 0.5rem;
+}
+button{
+ margin-top: 20px;
+}
